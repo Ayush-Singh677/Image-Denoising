@@ -1,1 +1,1 @@
-# Image_Denoising
+# Image-Denoising
