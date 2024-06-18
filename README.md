@@ -13,7 +13,7 @@ Image-Denoising/
 │   └── low/
 ├── models/
 │   ├── 10_unet_ploss_vgg19.pth
-│   ├── 15_unet_ploss_vgg19.pth (renamed 15epoch)
+│   ├── 15_unet_ploss_vgg19.pth
 │   ├── 20_unet_ploss_vgg19.pth
 │   ├── 25_unet_ploss_vgg19.pth
 ├── model.ipynb
