@@ -6,6 +6,7 @@ The project aims at proposing a model that does automatic image denoising using 
 Note : The model was trained on kaggle P100 GPU. There in some places in model.ipynb file you might find kaggle/working as directory.
 ```
 Image-Denoising/
+├── denoising-skipconnections (1).ipynb (model with skip connections, couldn't train due to lack of computation)
 ├── requirements.txt
 ├── README.md
 ├── test/
