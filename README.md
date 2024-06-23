@@ -7,6 +7,7 @@ Note : The model was trained on kaggle P100 GPU. There in some places in model.i
 ```
 Image-Denoising/
 ├── denoising-skipconnections (1).ipynb (model with skip connections, couldn't train due to lack of computation)
+├── model.ipynb (without skip connections, trained)
 ├── requirements.txt
 ├── README.md
 ├── test/
@@ -17,7 +18,6 @@ Image-Denoising/
 │   ├── 15_unet_ploss_vgg19.pth
 │   ├── 20_unet_ploss_vgg19.pth
 │   ├── 25_unet_ploss_vgg19.pth
-├── model.ipynb
 ├── 25_unet_ploss_vgg19.pth
 ├── main.py
 └── running_on_test_data/
