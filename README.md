@@ -57,7 +57,7 @@ Install the required dependencies:
 ```
 pip install -r requirements.txt
 ```
-### Usage
+## Usage
 Insert images images that you want to denoise in ```/test/low```
 Run the following command
 ```bash
