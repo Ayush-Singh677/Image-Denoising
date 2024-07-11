@@ -40,9 +40,24 @@ To deploy this project run
 
 ```bash
 git clone https://github.com/Ayush-Singh677/Image-Denoising.git
-
 cd Image-Denoising
+```
+Create a virtual environment and activate it:
+```
+python -m venv venv
+source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+```
 
+Install the required dependencies:
+```
 pip install -r requirements.txt
 ```
+### Usage
+Insert images images that you want to denoise in ```/test/low```
+Run the following command
+```bash
+python3 main.py
+```
+Your denoised images will be saved to ```/test/low```
+
 
