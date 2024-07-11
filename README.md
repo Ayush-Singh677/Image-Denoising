@@ -3,6 +3,10 @@
 
 The project aims at proposing a model that does automatic image denoising using a UNet architecture and Perceptual loss.
 
+### Model Architecture
+
+The core of the denoising model is the U-Net architecture, which consists of an encoder-decoder structure. The encoder compresses the input image into a lower-dimensional feature space, capturing essential features, while the decoder reconstructs the image from this compressed representation.
+
 Note : The model was trained on kaggle P100 GPU. There in some places in model.ipynb file you might find kaggle/working as directory.
 ```
 Image-Denoising/
